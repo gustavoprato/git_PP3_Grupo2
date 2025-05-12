@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>Hola,</p>
+  <p>Haz clic en el siguiente enlace para confirmar tu cuenta:</p>
+  <a href="https://tusitio.com/confirmar?token=XYZ123">Confirmar cuenta</a>
+  <p>Gracias por unirte.</p>
+</body>
+</html>
