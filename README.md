@@ -28,7 +28,7 @@ Este proyecto tiene como objetivo facilitar la gestión de pedidos online para u
 - **Catalina:** Líder del proyecto, diseño de interfaz y plantilla de email.
 - **Josué:** Gestión y diseño de la base de datos.
 - **Gustavo:** Desarrollo del backend (endpoints de login y registro).
-- **Agustín (Alex):** Implementación de Nodemailer y confirmación de cuenta por correo.
+- **Agustín:** Implementación de Nodemailer y confirmación de cuenta por correo.
 
 ## Última Versión Estable
 
