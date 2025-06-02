@@ -1,0 +1,9 @@
+CU-02: Inicio de Sesión
+
+- **Actor principal**: Usuario
+- **Precondiciones**: Tener cuenta registrada (etapa futura)
+- **Flujo principal**:
+  1. El usuario accede a la pantalla de login (`/login`)
+  2. Completa los campos: email y contraseña
+  3. Presiona "Iniciar sesión"
+  4. (En siguiente etapa: se conectará con el backend para autenticar)
