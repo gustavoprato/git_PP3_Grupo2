@@ -1,0 +1,55 @@
+Prueba1 "Ingresar datos"
+
+Email: federicoagustinestudia@gmail.com
+
+Contraseña: 800Selba!
+
+Resultado: Alerta "OK", datos aceptados
+
+
+Prueba2 "Email invalido"
+
+Email: tablonmesa
+
+Contraseña: 800Selba!
+
+Resultado: Alerta "incluye un signo "@" en la dirección de correo electrónico. la dirección "tablonmesa" no incluye el signo "@" "
+
+Prueba3 "Campos vacios"
+
+Email:  
+
+Contraseña:  
+
+Resultado: Alerta "Completa este campo"
+
+
+Prueba4 "contraseña invalida"
+
+Email: federicoagustinestudia@gmail.com
+
+Contraseña: mariano
+
+Resultado: Alerta "Contraseña insegura. Debe tener al menos:
+-8 caracteres
+-1 letra minuscula
+-1 letra mayuscula
+-1 numero
+-1 carácter especial"
+
+
+Prueba 5 "Campo contraseña vacia"
+
+Email: federicoagustinestudia@gmail.com
+
+Contraseña: 
+
+Resultado: Alerta en campo de contraseña "Completa este campo"
+
+Prueba3 "Campos de correo vacio"
+
+Email:  
+
+Contraseña: Selba800! 
+
+Resultado: Alerta en campo contraseña "Completa este campo"
