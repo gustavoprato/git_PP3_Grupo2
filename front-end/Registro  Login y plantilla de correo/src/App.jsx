@@ -1,3 +1,5 @@
+import Espera from './Espera';
+import MiTienda from './MiTienda';
 import { Routes, Route, Link } from 'react-router-dom';
 import Registro from './Registro';
 import Login from './Login';
@@ -17,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/espera" element={<Espera />} />   
+        <Route path="/mi-tienda" element={<MiTienda />} />   
       </Routes>
     </div>
   );
