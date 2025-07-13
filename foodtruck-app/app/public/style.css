@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background-color: #f5f5f5;
+    color: #f2f1f1;
+}
+
+header {
+    font-family: fantasy;
+    background-color: #1c1c1c;
+    color: rgb(253, 253, 253);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(236, 234, 240);
+    margin: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    min-width: auto;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+}
+
+.tarjeta {
+    margin: auto;
+    background: #302f2f;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(29, 31, 190, 0.1);
+    transition: transform 0.2s ease;
+}
+.tarjeta a{
+    color: white;
+}
+
+.tarjeta:hover {
+    transform: translateY(10px);
+}
+
+.tarjeta img {
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px white;
+}
+
+footer {
+    background-color: #242425;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/*BORDEADO DE SECCIONES*/
+.layout-box {
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #1e1d1d;
+}
+/*--------------------------------*/
+
+/* Carrito */
+.carrito {
+    display: none;
+    position: fixed ;
+    top: 100px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1000;
+    border: 1px dashed #aaa;
+    }
+.carrito h2 {
+    margin-bottom: 15px;
+    color: #ff6347;
+    }
+.carrito ul {
+    list-style: none;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    }
+.carrito li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    }
+.carrito .total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    }
+.carrito button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+.carrito button:hover {
+    background-color: #218838;
+    }
+/*--------------------------------*/
+
+/* Responsive */
+@media (max-width: 768px) {
+    .carrito {
+        position: static;
+        width: 100%;
+        margin-top: 30px;
+    }
+.container {
+    padding: 0 10px;
+    }
+}
+/*--------------------------------*/
+
+
+/*LOGOS DE REDES*/
+.redes img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 12px
+}
+
+.redes {
+        margin-top: 5%;
+    position: center;
+    background: #302f2f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px white;
+    transition: transform 0.2s ease;
+}
+.espacioredes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+/*--------------------------------*/
+.fondotienda {
+    
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-borde-llama-imagen-fuego-realista-negro_53876-146682.jpg?semt=ais_hybrid&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    z-index: 1000;
+}    
+
+.ubicacion{
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px white;
+
+}
