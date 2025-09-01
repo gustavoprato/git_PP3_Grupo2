@@ -4,12 +4,14 @@ CU-01: Registro de Usuario
 - **Precondiciones**: No tener cuenta creada
 - **Flujo principal**:
   1. El usuario accede a la pantalla de registro (`/registro`)
-  2. Completa el campo de email
-  3. Completa el campo de contraseña
-  4. Presiona el botón "Registrarse"
-  5. El sistema valida los datos ingresados
-  6. Si todo es correcto, muestra el mensaje "OK"
+  2. Completa el campo de usuario
+  3. Completa el campo de email
+  4. Completa el campo de contraseña
+  5. Presiona el botón "Registrarse"
+  6. El sistema valida los datos ingresados
+  7. Si todo es correcto, muestra el mensaje "OK"
 
 - **Flujos alternativos**:
   - Email inválido → muestra "Email inválido"
+
   - Contraseña insegura → muestra mensaje con requisitos mínimos
