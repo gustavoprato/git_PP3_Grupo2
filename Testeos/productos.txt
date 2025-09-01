@@ -1,0 +1,28 @@
+Test#1
+
+Producto 1: Hamburguesas
+
+al entrar al menú del producto 1 se muestran las opciones "Hamburguesa simple"-"Hamburguesa doble"-"Hamburguesa La Casona "-"Guarnicion de papas fritas"
+
+
+Test#2
+Producto 2: Choripan
+
+Al entrar al menú del producto 2 se muestran las opciones "choripan simple"-"choripan provolone"-"choripan La Casona"-"Guarnicion de papas"
+
+Test#3
+Producto3: sándwich de lomito
+
+Al entrar al menú del producto 3 se muestran las opciones "lomito simple"-"lomito completo"-"guarnición de papas"
+
+Test#4
+Producto4: sandwich de bondiola
+
+Al entrar al menú del producto 4 se muestran las opciones "bondiola simple"-"bondiola caramelizada"-"guarniionde papas"
+
+Test#5
+Producto5: papas fritas
+
+Al entrar al menú del producto 5 se muestran las opciones "papas fritas comunes"-"papas fritas especiales"
+
+

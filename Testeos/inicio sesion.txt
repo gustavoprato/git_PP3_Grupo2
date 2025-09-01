@@ -1,0 +1,63 @@
+
+
+En la parte de inicio de sesión, relleno los campos, pongo “Iniciar sesión” y la página parece recargarse mostrando en el link lo que puse.
+
+URL inicial:
+http://localhost:4000/login
+
+Ejemplo de URL generada:
+http://localhost:4000/login?email=ejemplo@gmail.com&password=1234
+
+---
+
+Test#1  
+Prueba normal  
+- Email: ejemplo@gmail.com
+- Contraseña: Prueba123!
+- Resultado: recarga la página, aparecen los datos en el link "http://localhost:4000/login?user=ejemplo%40gmail.com&password=Prueba123%21"
+
+---
+
+Test#2.0  
+Prueba con email inválido  
+- Email: hola
+- Contraseña: Prueba123!
+- Resultado: recarga la página, aparece en el link (http://localhost:4000/login?user=hola&password=Prueba123%21).
+
+---
+
+**Test#2.1**  
+Prueba con contraseña corta  
+- Email: ejemplo@gmail.com
+- Contraseña: a
+- Resultado: recarga la página, aparece en el link. "http://localhost:4000/login?user=ejemplo%40gmail.com&password=a"
+
+---
+
+**Test#2.2**  
+Prueba con espacios  
+- Email: " "
+- Contraseña: " "
+- Resultado: recarga la página, aparece en el link. "http://localhost:4000/login?user=+&password=+"
+
+---
+
+**Test#2.3**  
+Prueba con campos vacíos  
+- Email: (vacío)
+- Contraseña: (vacío)
+- Resultado: recarga la página, en el link aparecen los params vacíos "http://localhost:4000/login?user=&password="
+
+---
+
+**Test#2.4**  
+Prueba con caracteres especiales  
+- Email: @@@@###.com
+- Contraseña: !"$%&&/()=
+- Resultado: recarga la página, y los datos cambian en el link. "http://localhost:4000/login?user=%40%40%40%40%23%23%23.com&password=%21%22%24%25%26%26%2F%28%29%3D"
+
+---
+
+**Conclusión:**
+En todos los casos, la página recarga y muestra los datos en la URL como query params.
+No hay validación de formato de email ni de longitud/seguridad de contraseña.

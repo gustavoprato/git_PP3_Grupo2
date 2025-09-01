@@ -1,0 +1,29 @@
+### TESTEO: ENLACES EXTERNOS
+
+**Test#1**
+Facebook
+
+Al hacer click en el icono de Facebook de la pagina nos lleva a Faceboook
+
+---
+
+Test#2
+Instagram
+
+Al hacer click en el icono de Instagram nos lleva a la pagina de instragram
+
+---
+
+Test#3
+TikTok
+
+Al hacer click en el icono de Tiktok nos lleva a la pagina de Tiktok
+---
+
+Test#4
+Google Maps
+
+Al hacer click en la imagen de FoodTruck en la sección "¿Donde estamos?" esto nos lleva a la ubicaion de Vicente Lopez donde ahí hay varios puestos FoodTruck.
+
+
+

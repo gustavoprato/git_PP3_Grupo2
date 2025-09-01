@@ -1,0 +1,50 @@
+### TESTEO: SECCIÓN HAMBURGUESAS
+
+Menú disponible:
+- Hamburguesa simple ($2000)
+- Hamburguesa doble ($3000)
+- Hamburguesa "La Casona" ($4500)
+- Guarnición de papas fritas ($1500)
+
+---
+
+**Test#1**
+Verificar mensaje inicial sin productos
+- Acción: entrar al carrito sin agregar nada.
+- Resultado: aparece mensaje “el carrito está vacío”.
+
+---
+
+**Test#2**
+Agregar una hamburguesa simple
+- Acción: click en “Agregar al carrito” en Hamburguesa simple.
+- Resultado: producto agregado al carrito, total: $2000.
+
+---
+
+**Test#3**
+Agregar hamburguesa doble y "La Casona"
+- Acción: agregar ambos productos.
+- Resultado: ambos aparecen en el carrito, total: $3000 + $4500 = $7500.
+
+---
+
+**Test#4**
+Agregar guarnición de papas fritas
+- Acción: click en “Agregar al carrito” en papas fritas.
+- Resultado: aparece junto a las hamburguesas en el carrito, suma total correcta.
+
+---
+
+**Test#5**
+Agregar varias veces el mismo producto
+- Acción: click varias veces en Hamburguesa simple.
+- Resultado: se suman varias unidades, el carrito sigue aceptando sin límite.
+
+---
+
+**Conclusión:**
+Actualmente el carrito permite:
+- Agregar cualquier combinación de productos del menú.
+- Agregar varias veces el mismo producto sin límite.
+- Notificación correcta cuando está vacío.

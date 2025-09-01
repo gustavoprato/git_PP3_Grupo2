@@ -1,0 +1,99 @@
+Test#1
+
+campos vacíos:
+
+se dejan los campos vacio en "registrarse", al hacer click en registrar, la pagina se reinicia y el link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=&password="
+-------------------------------
+
+Test#2.0
+
+Se llena el campo "Nombre de Usuario" con 4 caracteres minusculas:
+
+Al llenar dicho campo con "fede" y dejar los demás campos vacíos
+se reinicia la pagina y el link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=fede&email=&password="
+
+Test#2.1
+
+Se llena el campo "Nombre de Usuario" con 1 Mayuscula y 3 caracteres minusculas :
+
+Al llenar dicho campo con "Fede" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=Fede&email=&password="
+
+Test#2.2
+
+Se Llena el campo "Nombre de usuario" con numeros:
+
+
+Al llenar dicho campo con "1221" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=1221&email=&password="
+
+Test#2.3
+
+Se llena el campo "Nombre de Usuario" con caracteres especiales:
+
+Al llenar dicho campo con "°*!" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=%C2%B0*%21&email=&password="
+solo dejando el "*"
+
+Test# 2.4
+
+Se llena el campo "Nombre de Usuario" con 1 carácter mayuscula 7 caracteres minusculas y 1 espacio
+
+Al llenar dicho campo con "Fede agus" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=Fede+agus&email=&password="
+
+Test#3.0
+
+Se llena el campo "Correo electronico" con email valido:
+
+
+Al llenar dicho campo con "federicoagustinestudia@gmail" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=federicoagustinestudia%40gmail.com&password="
+quitando la "@" 
+
+Test#3.1
+
+Se llena el campo "Correo electronico" con numeros:
+
+Al llenar dicho campo con "24123" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=24123&password="
+
+Test#3.2
+
+Se llena el campo "Correo electronico" con caracteres especiales :
+
+Al llenar dicho campo con "***" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=***&password="
+
+Test#3.3
+
+Se llena el campo "Correo electronico" con 1 caracter mayuscula 7 caracteres minusculas  y un espacio:
+
+Al llenar dicho campo con "Fede Agus" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=Fede+Agus&password="
+
+Test#4.0
+
+Se llena el campo "Contraseña" con  7 caracteres y 2 numerales:
+
+Al llenar dicho campo con "cigarro43" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=&password=cigarro43"
+
+
+Test#4.1
+
+Se llena el campo "Contraseña" con 6 caracteres especiales
+
+
+Al llenar dicho campo con "¡?¡?¡?" y dejar los demás campos vacíos se reinicia la pagina y el  link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=&email=&password=%C2%A1%3F%C2%A1%3F%C2%A1%3F" quitando "¡?¡?¡?"
+
+
+
+
+
+Test#5
+
+Se LLenan todos los campos:
+
+Se ingresa en el campo "Nombre de Usuario" "Fede Agus", se ingresa en el campo "Correo electronico" "federicoagustinestudia@gmail.com", se ingrea en el campo "Contraseña" "cigarro43".
+
+el link pasa de "http://localhost:4000/register" a "http://localhost:4000/register?user=Fede+agus&email=federicoagustinestudia%40gmail.com&password=cigarro43"
+
+
+Conclusión: No hay restricciociones al crear una contraseña, usuario o al agregar un email invalido
+
+
+
+
+
