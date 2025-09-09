@@ -1,0 +1,39 @@
+Requisitos Funcionales 
+
+Gestión del menú:
+
+1) El sistema debe permitir visualizar el menú de comidas y bebidas disponibles.
+
+2) El administrador debe poder agregar, modificar o eliminar productos.
+
+Gestión de pedidos:
+
+1) El cliente debe poder seleccionar productos y agregarlos a un carrito.
+
+2) El sistema debe permitir confirmar un pedido y enviarlo al Food Truck.
+
+3) El cliente debe poder visualizar el estado del pedido (pendiente, en preparación, enviado, entregado).
+
+Registro e inicio de sesión de usuarios:
+
+1) El sistema debe permitir que un usuario se registre con email y contraseña.
+
+2) El sistema debe enviar un correo de confirmación (Nodemailer) antes de activar la cuenta.
+
+3) El usuario debe poder iniciar sesión con sus credenciales (email y contraseña).
+
+4) El usuario debe poder cerrar sesión cuando lo desee.
+
+Métodos de pago:
+
+El sistema debe permitir elegir método de pago (ej:MercadoPago, Modo, Uala, Cuenta DNI,ETC).
+
+Notificaciones y confirmaciones:
+
+1) El sistema debe enviar un email de confirmación cuando se realice un pedido.
+
+2) El cliente debe recibir actualizaciones del estado del pedido en la plataforma.
+
+Gestión de base de datos:
+
+El sistema debe almacenar información de usuarios, pedidos y productos en MongoDB.

@@ -1,0 +1,55 @@
+Requisitos No Funcionales (RNF)
+
+1) Usabilidad
+
+La interfaz debe ser intuitiva y fácil de usar para usuarios sin experiencia técnica.
+
+El diseño debe ser responsive, adaptándose a dispositivos móviles, tablets y PC.
+
+Los menús y botones deben estar claramente identificados.
+
+2) Rendimiento
+
+El sistema debe cargar el menú en menos de 3 segundos bajo condiciones normales.
+
+Debe soportar al menos 50 usuarios concurrentes sin degradación notable del servicio.
+
+3) Seguridad
+
+Las contraseñas deben almacenarse en la base de datos mediante encriptación (ejemplo: bcrypt).
+
+El sistema debe protegerse contra ataques comunes (SQL Injection, XSS, CSRF).
+
+Los pedidos y la información personal de los clientes deben transmitirse mediante HTTPS.
+
+4) Disponibilidad
+
+El sistema debe estar disponible al menos el 95% del tiempo.
+
+En caso de caída, debe recuperarse en un plazo máximo de 2 horas.
+
+5) Mantenibilidad
+
+El código debe estar modularizado para facilitar modificaciones futuras.
+
+La API debe estar documentada para permitir a otros desarrolladores integrarse fácilmente.
+
+6) Compatibilidad
+
+El sistema debe funcionar en los navegadores modernos (Chrome, Firefox, Edge, Safari).
+
+Debe ser compatible con sistemas operativos móviles Android e iOS.
+
+7) Escalabilidad
+
+El sistema debe permitir añadir más productos, categorías o sucursales del food truck sin cambios estructurales mayores.
+
+8) Fiabilidad
+
+El sistema debe garantizar que los pedidos no se pierdan incluso en caso de error del servidor.
+
+Los datos deben guardarse de manera consistente en la base de datos.
+
+9) Accesibilidad
+
+El sistema debe cumplir con estándares básicos de accesibilidad (ejemplo: contraste de colores, uso de etiquetas alt en imágenes, navegación con teclado)
