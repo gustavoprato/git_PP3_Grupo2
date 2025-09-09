@@ -9,9 +9,10 @@ CU-01: Registro de Usuario
   4. Completa el campo de contraseña
   5. Presiona el botón "Registrarse"
   6. El sistema valida los datos ingresados
-  7. Si todo es correcto, muestra el mensaje "OK"
+  7. Si todo es correcto, muestra el mensaje "se le a enviado un correo de confirmacion a su emmail"
+  8. El ususario revisa su email y confirma el correo
+  9. El usuario ahora puede iniciar sesion y acceder al menu
 
-- **Flujos alternativos**:
-  - Email inválido → muestra "Email inválido"
 
-  - Contraseña insegura → muestra mensaje con requisitos mínimos
+
+
