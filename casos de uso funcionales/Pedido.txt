@@ -1,0 +1,23 @@
+CU: Realizar Pedido
+
+Actor principal: Usuario (cliente registrado y autenticado)
+
+Precondiciones: Entrar en una categoría del menú.
+
+Flujo principal:
+
+1. El usuario navega por una de las categorías del menú y selecciona algunos productos.
+
+2. Aparece el carrito como ventana
+
+3. El usuario agrega productos al carrito.
+
+4. En el carrito aparecen los productos, precio y total a pagar
+
+5. El usuario presiona el botón "Confirmar pedido".
+
+5. El sistema valida la información del pedido.
+
+6. El sistema registra el pedido en la base de datos con estado inicial “Pendiente”.
+
+7. El sistema envía un correo de confirmación al usuario.

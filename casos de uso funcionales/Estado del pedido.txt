@@ -1,0 +1,13 @@
+CU: Consultar Estado del Pedido
+
+Actor principal: Usuario
+
+Precondiciones: Haber realizado al menos un pedido.
+
+Flujo principal:
+
+1. El usuario accede a la sección "Mis pedidos" (/pedidos).
+
+2. El sistema muestra la lista de pedidos actual.
+
+3. El sistema muestra el estado actual del pedido (Pendiente, En preparación, Listo, Entregado).

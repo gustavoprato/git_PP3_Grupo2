@@ -1,0 +1,15 @@
+CU: Visualizar Menú
+
+Actor principal: Usuario (cliente)
+
+Precondiciones: Estar registrado en la base de datos.
+
+Flujo principal:
+
+1. El usuario accede a la página principal (/menu).
+
+2. El sistema obtiene los productos de la base de datos.
+
+3. El sistema muestra las categorías de los productos con nombre, descripción e imagen.
+
+4. El usuario puede navegar por las distintas categorías del menú.
