@@ -1,0 +1,45 @@
+CU: Realizar Pago
+
+Actor principal: Usuario (cliente registrado)
+
+Precondiciones:
+
+El usuario debe estar registrado e iniciar sesión.
+
+El usuario debe tener al menos un pedido pendiente de pago.
+
+Flujo principal (pago con billetera virtual):
+
+1.El usuario accede al carrito o sección “Mis pedidos”.
+
+2.El usuario selecciona el pedido pendiente de pago.
+
+3.El usuario elige la opción “Pagar con billetera virtual”.
+
+4.El sistema redirige al servicio de pago externo (ej: Mercado Pago / PayPal).
+
+5.El usuario ingresa sus datos de pago y confirma la transacción.
+
+6.El servicio de pago confirma la operación al sistema.
+
+7.El sistema actualiza el estado del pedido a “Pagado” en la base de datos.
+
+8.El sistema muestra al usuario un comprobante de pago exitoso.
+
+9.El sistema envía un correo electrónico con el detalle del pedido y la confirmación del pago.
+
+Flujos alternativos:
+
+5a. El usuario cancela el pago virtual → El sistema deja el pedido en estado “Pendiente de pago”.
+
+5b. El pago es rechazado por la billetera virtual → El sistema muestra un mensaje de error y mantiene el pedido en estado “Pendiente de pago”.
+
+3a. Pago en efectivo:
+
+1.El usuario selecciona la opción “Pagar en efectivo al recibir el pedido”.
+
+2.El sistema registra el pedido en estado “Pendiente de pago en efectivo”.
+
+3.El sistema muestra al usuario la confirmación del pedido con el aviso “Pagar al recibir”.
+
+4.El sistema envía un correo electrónico al usuario con el detalle del pedido y la forma de pago seleccionada.
